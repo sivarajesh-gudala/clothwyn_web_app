@@ -1,0 +1,77 @@
+@import "../../../styles/theme";
+
+.cw-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 280px;
+  height: 100vh;
+  background: $bg-card;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.15);
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+  padding: 24px;
+  z-index: 999;
+  overflow-y: auto;
+
+  h4 {
+    margin-bottom: 20px;
+    color: $btn-outline-text;
+  }
+
+  .menu-section {
+    margin-bottom: 12px;
+
+    .menu-title {
+      font-weight: 600;
+      cursor: pointer;
+      padding: 8px 0;
+      color: $text-primary;
+
+      &:hover {
+        color: $btn-outline-text;
+      }
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 12px;
+
+      li {
+        margin: 6px 0;
+
+        a {
+          text-decoration: none;
+          color: $text-secondary;
+
+          &:hover {
+            color: $btn-outline-text;
+          }
+        }
+      }
+    }
+  }
+
+  .sidebar-footer {
+    margin-top: 24px;
+    padding-top: 12px;
+    border-top: 1px solid #eee;
+
+    a {
+      text-decoration: none;
+      color: $btn-outline-text;
+      font-weight: 600;
+    }
+  }
+
+  &.open {
+    transform: translateX(0);
+  }
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 998;
+}

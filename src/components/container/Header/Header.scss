@@ -1,0 +1,40 @@
+@import "../../../styles/theme";
+
+.cw-header {
+  height: 64px;
+  background: $bg-card;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  .menu-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: $text-primary;
+  }
+
+  .header-actions {
+    display: flex;
+    gap: 16px;
+
+    .icon-btn {
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: $text-primary;
+      padding: 6px;
+      border-radius: 8px;
+
+      &:hover {
+        background: $bg-section;
+        color: $btn-outline-text;
+      }
+    }
+  }
+}

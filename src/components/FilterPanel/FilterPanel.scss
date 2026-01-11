@@ -1,0 +1,57 @@
+@import "../../styles/theme";
+
+.filters-panel {
+  background: $bg-card;
+  border-radius: 14px;
+  padding: 18px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  position: sticky;
+  top: 88px;
+}
+
+.filter-section {
+  margin-bottom: 24px;
+
+  h4 {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: $text-primary;
+  }
+
+  select {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background: $bg-card;
+    font-size: 14px;
+    cursor: pointer;
+  }
+}
+
+.filter-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.filter-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  color: $text-secondary;
+
+  input {
+    width: 16px;
+    height: 16px;
+    accent-color: $btn-outline-text;
+    cursor: pointer;
+  }
+
+  &:hover {
+    color: $btn-outline-text;
+  }
+}

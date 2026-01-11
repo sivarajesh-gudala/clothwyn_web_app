@@ -1,0 +1,17 @@
+<svg
+  width="60"
+  height="60"
+  viewBox="0 0 100 100"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <rect
+    x="25"
+    y="25"
+    width="50"
+    height="50"
+    transform="rotate(45 50 50)"
+    fill="none"
+    stroke="#000"
+    stroke-width="6"
+  />
+</svg>

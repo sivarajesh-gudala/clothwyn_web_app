@@ -1,0 +1,45 @@
+@import "../../styles/theme";
+
+.privacy-page {
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.privacy-card {
+  background: $bg-card;
+  max-width: 900px;
+  width: 100%;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+
+  h1 {
+    margin-bottom: 8px;
+  }
+
+  section {
+    margin-top: 24px;
+
+    h3 {
+      margin-bottom: 8px;
+    }
+
+    p,
+    li {
+      color: $text-secondary;
+      line-height: 1.7;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .privacy-card {
+    padding: 20px;
+  }
+}

@@ -1,0 +1,43 @@
+@import "../../styles/theme";
+
+.btn {
+  height: 38px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 0 16px;
+}
+
+.btn-primary {
+  background: $primary-gold;
+  color: $white;
+  border: none;
+
+  &:hover {
+    background: $primary-gold-dark;
+  }
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid $primary-gold;
+  color: $primary-gold;
+}
+
+/* Primary */
+.btn-primary {
+  background: $btn-primary-bg;
+  color: $btn-primary-text;
+}
+
+/* Secondary */
+.btn-secondary {
+  background: $btn-secondary-bg;
+  color: $btn-secondary-text;
+}
+
+/* Danger */
+.btn-danger {
+  background: $btn-danger-bg;
+  color: $btn-danger-text;
+}

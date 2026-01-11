@@ -1,0 +1,9 @@
+/* src/styles/main.scss */
+
+@import "./typography";
+@import "./mixins";
+
+/* Bootstrap must come AFTER variables if you override them */
+@import "~bootstrap/scss/bootstrap";
+
+@import "./global";

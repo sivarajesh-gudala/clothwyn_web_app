@@ -1,0 +1,86 @@
+@import "../../../styles/theme";
+
+.product-card {
+  background: $bg-card;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  transition: all 0.25s ease;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+
+    .product-actions {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .image-wrapper {
+    background: $bg-section;
+    height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .product-info {
+    padding: 12px 14px;
+
+    h4 {
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 6px;
+      line-height: 1.3;
+    }
+
+    .price {
+      font-size: 15px;
+      font-weight: 700;
+      color: $btn-outline-text;
+    }
+  }
+
+  .product-actions {
+    position: absolute;
+    inset: auto 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 10px;
+
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.2s ease;
+
+    button {
+      flex: 1;
+      border: none;
+      border-radius: 10px;
+      padding: 10px 0;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .wishlist-btn {
+      background: $bg-card;
+      border: 1px solid #ddd;
+    }
+
+    .cart-btn {
+      background: $btn-primary-bg;
+      color: $btn-primary-text;
+    }
+  }
+}

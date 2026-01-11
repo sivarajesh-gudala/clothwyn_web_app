@@ -1,0 +1,24 @@
+@import "./theme";
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: $font-heading;
+  color: $text-primary;
+}
+
+p,
+span,
+label {
+  color: $text-secondary;
+  font-family: $font-body;
+}
+
+.text-muted {
+  color: $text-muted;
+}
+
+.text-disabled {
+  color: $text-disabled;
+}

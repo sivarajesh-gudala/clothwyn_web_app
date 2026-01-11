@@ -1,0 +1,37 @@
+@import "../../styles/theme";
+
+.cw-footer-minimal {
+  margin-top: 48px;
+  padding: 16px 24px;
+  border-top: 1px solid #e5e5e5;
+  background: $bg-card;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 14px;
+  color: $text-muted;
+
+  .footer-links {
+    display: flex;
+    gap: 16px;
+
+    a {
+      text-decoration: none;
+      color: $text-secondary;
+
+      &:hover {
+        color: $btn-outline-text;
+      }
+    }
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .cw-footer-minimal {
+    flex-direction: column;
+    gap: 8px;
+  }
+}

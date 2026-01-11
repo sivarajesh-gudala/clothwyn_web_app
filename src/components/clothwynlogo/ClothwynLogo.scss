@@ -1,0 +1,33 @@
+.clothwyn-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 160px;
+    transition: all 0.3s ease;
+  }
+
+  &.small img {
+    width: 110px;
+  }
+
+  &.large img {
+    width: 200px;
+  }
+
+  &.animate {
+    animation: fadeUp 0.8s ease forwards;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
