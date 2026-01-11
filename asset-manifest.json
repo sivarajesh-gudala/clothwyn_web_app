@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/clothwyn/static/css/main.a6906bb4.css",
-    "main.js": "/clothwyn/static/js/main.46d47a00.js",
+    "main.js": "/clothwyn/static/js/main.4c860fd6.js",
     "static/css/764.d82553b2.chunk.css": "/clothwyn/static/css/764.d82553b2.chunk.css",
     "static/js/764.04254d45.chunk.js": "/clothwyn/static/js/764.04254d45.chunk.js",
     "static/css/472.6549610c.chunk.css": "/clothwyn/static/css/472.6549610c.chunk.css",
@@ -23,7 +23,7 @@
     "static/media/clothwyn_logo_text.svg": "/clothwyn/static/media/clothwyn_logo_text.0c6a42e7b72ee217d1fd66d33e9c6847.svg",
     "index.html": "/clothwyn/index.html",
     "main.a6906bb4.css.map": "/clothwyn/static/css/main.a6906bb4.css.map",
-    "main.46d47a00.js.map": "/clothwyn/static/js/main.46d47a00.js.map",
+    "main.4c860fd6.js.map": "/clothwyn/static/js/main.4c860fd6.js.map",
     "764.d82553b2.chunk.css.map": "/clothwyn/static/css/764.d82553b2.chunk.css.map",
     "764.04254d45.chunk.js.map": "/clothwyn/static/js/764.04254d45.chunk.js.map",
     "472.6549610c.chunk.css.map": "/clothwyn/static/css/472.6549610c.chunk.css.map",
@@ -45,6 +45,6 @@
   },
   "entrypoints": [
     "static/css/main.a6906bb4.css",
-    "static/js/main.46d47a00.js"
+    "static/js/main.4c860fd6.js"
   ]
 }
