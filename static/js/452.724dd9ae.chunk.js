@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkclothwyn=self.webpackChunkclothwyn||[]).push([[452],{452(c,s,e){e.r(s),e.d(s,{default:()=>a});var n=e(579);const a=()=>(0,n.jsxs)("div",{className:"contact-page",children:[(0,n.jsx)("h2",{children:"Contact Us"}),(0,n.jsxs)("div",{className:"contact-card",children:[(0,n.jsx)("p",{children:"Email: support@clothwyn.com"}),(0,n.jsx)("p",{children:"Phone: +91 90000 00000"}),(0,n.jsx)("p",{children:"Address: India"})]})]})}}]);
+//# sourceMappingURL=452.724dd9ae.chunk.js.map
